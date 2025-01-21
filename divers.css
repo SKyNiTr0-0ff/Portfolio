@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,33 +24,33 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-left {
+.gauche-barre-navigation {
     margin-left: 20px;
 }
 
-.navbar-title {
+.titre-barre-navigation {
     color: white;
-    font-size: 24px !important;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.navbar-right {
+.droite-barre-navigation {
     display: flex;
     list-style: none;
 }
 
-.navbar-right li {
+.droite-barre-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
@@ -67,7 +67,7 @@ body, html {
     flex-direction: column;
 }
 
-.divers-title {
+.titre-divers {
     font-size: 40px;
     margin-bottom: 40px;
     color: #333;
@@ -76,7 +76,7 @@ body, html {
     text-align: center;
 }
 
-.interest-box {
+.boite-interet {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,7 +87,7 @@ body, html {
     margin: 0 auto;
 }
 
-.interest-title {
+.titre-interet {
     font-size: 30px;
     margin-bottom: 20px;
     color: #333;
@@ -95,13 +95,13 @@ body, html {
     letter-spacing: 1px;
 }
 
-.interests {
+.interets {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.interest-card {
+.carte-interet {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -114,30 +114,30 @@ body, html {
     justify-content: center;
 }
 
-.interest-card img {
+.carte-interet img {
     width: 100%;
-    max-height: 150px !important;
+    max-height: 150px;
     object-fit: contain;
     margin: 20px 0;
 }
 
-.interest-card:hover {
+.carte-interet:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.interest-card h4 {
+.carte-interet h4 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.interest-card p {
+.carte-interet p {
     font-size: 16px;
     color: #555;
 }
 
-.footer {
+.pied-de-page {
     text-align: center;
     padding: 20px;
     background-color: #333;

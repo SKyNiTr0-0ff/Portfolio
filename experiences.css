@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,33 +24,33 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-left {
+.gauche-barre-navigation {
     margin-left: 20px;
 }
 
-.navbar-title {
+.titre-barre-navigation {
     color: white;
-    font-size: 24px !important;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.navbar-right {
+.droite-barre-navigation {
     display: flex;
     list-style: none;
 }
 
-.navbar-right li {
+.droite-barre-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
@@ -67,7 +67,7 @@ body, html {
     flex-direction: column;
 }
 
-.formation-title {
+.titre-experience {
     font-size: 30px;
     margin-bottom: 20px;
     color: #333;
@@ -76,14 +76,14 @@ body, html {
     text-align: center;
 }
 
-.formation-intro {
+.introduction-experience {
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.formations {
+.experiences {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
@@ -92,7 +92,7 @@ body, html {
     margin: 0 auto;
 }
 
-.formation-card {
+.carte-experience {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -105,36 +105,36 @@ body, html {
     justify-content: center;
 }
 
-.formation-card img {
+.carte-experience img {
     width: 100%;
-    max-height: 150px !important;
+    max-height: 150px;
     object-fit: contain;
     margin: 20px 0;
 }
 
-.formation-card:hover {
+.carte-experience:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.formation-card h3 {
+.carte-experience h3 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.formation-card h4.formation-subtitle {
+.carte-experience h4.sous-titre-experience {
     font-size: 18px;
     color: #777;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
 
-.formation-card p {
+.carte-experience p {
     font-size: 16px;
     color: #555;
 }
 
-.footer {
+.pied-de-page {
     text-align: center;
     padding: 20px;
     background-color: #333;

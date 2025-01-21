@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,41 +24,41 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-left {
+.gauche-barre-navigation {
     display: flex;
     align-items: center;
 }
 
-.navbar-title {
+.titre-barre-navigation {
     color: white;
     font-size: 24px;
     font-weight: bold;
     text-align: left;
 }
 
-.navbar-right {
+.droite-barre-navigation {
     display: flex;
     list-style: none;
 }
 
-.navbar-right li {
+.droite-barre-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
 }
 
-.navbar a.active {
+.barre-navigation a.actif {
     background-color: #555;
     border-radius: 5px;
 }
@@ -70,7 +70,7 @@ body, html {
     text-align: center;
 }
 
-.formation-title {
+.titre-experience {
     font-size: 30px;
     margin-bottom: 20px;
     color: #333;
@@ -78,7 +78,7 @@ body, html {
     letter-spacing: 1px;
 }
 
-.formation-intro {
+.introduction-experience {
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
@@ -94,20 +94,20 @@ body, html {
     margin: 40px auto;
 }
 
-.rectangle-title {
+.titre-rectangle {
     font-size: 24px;
     color: #333;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.rectangle-description {
+.description-rectangle {
     font-size: 16px;
     color: #555;
     text-align: center;
 }
 
-.footer {
+.pied-de-page {
     text-align: center;
     padding: 20px;
     background-color: #333;

@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,34 +24,34 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-left {
+.gauche-barre-navigation {
     margin-left: 20px;
 }
 
-.navbar-title {
+.titre-barre-navigation {
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.navbar-right {
+.droite-barre-navigation {
     display: flex;
     list-style: none;
     margin-right: 20px;
 }
 
-.navbar-right li {
+.droite-barre-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
@@ -68,7 +68,7 @@ body, html {
     flex-direction: column;
 }
 
-.cv-title {
+.titre-cv {
     font-size: 28px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -76,11 +76,11 @@ body, html {
     text-align: center;
 }
 
-.cv-btn-container {
+.conteneur-btn-cv {
     text-align: center;
 }
 
-.download-btn {
+.btn-telechargement {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
@@ -90,23 +90,23 @@ body, html {
     transition: background-color 0.3s;
 }
 
-.download-btn:hover {
+.btn-telechargement:hover {
     background-color: #555;
 }
 
-.cv-image-container {
+.conteneur-image-cv {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-.cv-image {
+.image-cv {
     max-width: 40%;
     height: auto;
     border-radius: 8px;
 }
 
-.footer {
+.pied-de-page {
     text-align: center;
     padding: 20px;
     background-color: #333;

@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-de-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,46 +24,46 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-title {
+.titre-navigation {
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.navbar ul {
+.barre-de-navigation ul {
     display: flex;
     list-style: none;
 }
 
-.navbar li {
+.barre-de-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-de-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-de-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
 }
 
-.navbar .active {
+.barre-de-navigation .actif {
     background-color: #555;
     border-radius: 5px;
 }
 
-#formation {
+#section-formation {
     padding: 100px 20px 50px;
     background-color: #f4f4f4;
     text-align: center;
 }
 
-#formation h2 {
+#section-formation h2 {
     font-size: 30px;
     color: #333;
     margin-bottom: 20px;
@@ -71,13 +71,13 @@ body, html {
     letter-spacing: 1px;
 }
 
-#formation p {
+#section-formation p {
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
 }
 
-.formation-card {
+.carte-formation {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,36 +87,36 @@ body, html {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.formation-card:hover {
+.carte-formation:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.formation-card img {
+.carte-formation img {
     width: 100%;
     max-height: 150px;
     object-fit: contain;
     margin: 20px 0;
 }
 
-.formation-card h3 {
+.carte-formation h3 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.formation-card h4 {
+.carte-formation h4 {
     font-size: 18px;
     color: #777;
     margin: 5px 0 20px;
 }
 
-.formation-card p {
+.carte-formation p {
     font-size: 16px;
     color: #555;
 }
 
-footer {
+.pied-de-page {
     text-align: center;
     padding: 20px;
     background-color: #333;

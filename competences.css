@@ -11,7 +11,7 @@ body, html {
     background-color: #f4f4f4;
 }
 
-.navbar {
+.barre-navigation {
     background-color: #333;
     position: fixed;
     top: 0;
@@ -24,33 +24,33 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-left {
+.gauche-barre-navigation {
     margin-left: 20px;
 }
 
-.navbar-title {
+.titre-barre-navigation {
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.navbar-right {
+.droite-barre-navigation {
     display: flex;
     list-style: none;
 }
 
-.navbar-right li {
+.droite-barre-navigation li {
     margin: 0 15px;
 }
 
-.navbar a {
+.barre-navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
-.navbar a:hover {
+.barre-navigation a:hover {
     background-color: #555;
     border-radius: 5px;
     transform: scale(1.1);
@@ -67,7 +67,7 @@ body, html {
     flex-direction: column;
 }
 
-.formation-title {
+.titre-experience {
     font-size: 30px;
     margin-bottom: 20px;
     color: #333;
@@ -76,14 +76,14 @@ body, html {
     text-align: center;
 }
 
-.formation-intro {
+.introduction-experience {
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.formations {
+.experiences {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -92,7 +92,7 @@ body, html {
     margin: 0 auto;
 }
 
-.formation-card {
+.carte-experience {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -104,29 +104,29 @@ body, html {
     justify-content: flex-start;
 }
 
-.formation-card:hover {
+.carte-experience:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.formation-card h3 {
+.carte-experience h3 {
     font-size: 22px;
     margin-bottom: 10px;
     color: #333;
 }
 
-.formation-card ul {
+.carte-experience ul {
     padding-left: 20px;
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
 }
 
-.formation-card li {
+.carte-experience li {
     margin-bottom: 10px;
 }
 
-.competence-image {
+.image-competence {
     width: 80%;
     height: auto;
     border-radius: 8px;
@@ -147,7 +147,7 @@ body, html {
     margin-top: 50px;
 }
 
-.qualite-card {
+.carte-qualite {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -159,36 +159,25 @@ body, html {
     justify-content: flex-start;
 }
 
-.qualite-card:hover {
+.carte-qualite:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.qualite-card h3 {
+.carte-qualite h3 {
     font-size: 22px;
     margin-bottom: 10px;
     color: #333;
 }
 
-.qualite-card p {
+.carte-qualite p {
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
     flex-grow: 1;
 }
 
-.qualite-card img {
-    width: 80%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer {
+.pied-de-page {
     background-color: #333;
     color: white;
     text-align: center;
